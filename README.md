@@ -1,6 +1,6 @@
 # ULPT: Prompt Tuning with Ultra Low-Dimensional Optimization
 
-This repository provides the code for the paper titled **[ULPT: Prompt Tuning with Ultra Low-Dimensional Optimization]()**.
+This repository provides the code for the paper titled **[ULPT: Prompt Tuning with Ultra Low-Dimensional Optimization](https://arxiv.org/abs/2502.04501)**.
 
 <p align="center">
   <img src="ulpt.png" width="500">
@@ -68,18 +68,17 @@ CUDA_VISIBLE_DEVICES=0 python train.py \
 
 ## Support Models and Tasks
 
-The following models have been tested:
-- T5-small, base, large
-- Bloomz-560m, 1.7b, 3b
+#### The following models have been tested:
+- **Encoder-decoder models:** T5-small, base, large
+- **Decoder-only models:** Bloomz-560m, 1.7b, 3b
 
-**Note:** For Bloomz, uncomment the post processing class `PostProcessor` in `src/postprocessors.py`
+**Note:** For decoder-only models, uncomment the post processing class `PostProcessor` in `src/postprocessors.py` for better post-processing.
 
-The following tasks have been tested:
+#### The following tasks have been tested:
 - **GLUE**: CoLA, SST-2, MRPC, STS-B, QQP, MNLI, QNLI, RTE
 - **SuperGLUE:** CB, MultiRC,WiC, WSC
 - **MRQA:** NewsQA, HotpotQA, NaturalQuestions, SearchQA, 
 - **Others:** WinoGrande, Yelp, SciTail, PAWS
-
 
 
 ## Acknowledgement
