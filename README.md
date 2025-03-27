@@ -7,6 +7,9 @@ This repository provides the code for the paper titled **[ULPT: Prompt Tuning wi
   <br />
 </p>
 
+## Extra Experiments
+ULPT now supports Llama 3.2 models for math reasoning and code generation, please find the details in [ULPT/Llama](ULPT/Llama)
+
 ## Table of Contents
 1. [Requirements and Installation](#requirements-and-installation)
 2. [Quick Usage](#quick-usage)
