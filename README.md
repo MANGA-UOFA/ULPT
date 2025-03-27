@@ -1,6 +1,6 @@
 # ULPT: Prompt Tuning with Ultra Low-Dimensional Optimization
 
-This repository provides the code for the paper titled **[ULPT: Prompt Tuning with Ultra Low-Dimensional Optimization](https://arxiv.org/abs/2502.04501)**.
+This repository provides the code for the paper titled **[ULPT: Prompt Tuning with Ultra Low-Dimensional Optimization](https://arxiv.org/abs/2502.04501)**. We leverage random projection matrix to significantly reduce training parameters for prompt tuning on LLM. 
 
 <p align="center">
   <img src="ulpt.png" width="500">
