@@ -22,7 +22,7 @@ class CustomNorm(torch.nn.Module):
         # self.variance_epsilon = eps
 
     def forward(self, hidden_states):
-        return self.weight * F.normalize(hidden_states, dim=-1) + self.bias
+        return self.weight * hidden_states + self.bias
     
 
 def save_checkpoint(state, checkpoint_path):
